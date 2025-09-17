@@ -31,41 +31,37 @@ The course emphasizes:
 
 ## Notebook Structure
 
-### 1. **io_scikitimage.ipynb** - Fundamentals of Image I/O and Processing
+### 1. [Python Basics - Fundamentals of Python](https://colab.research.google.com/github/DeVosLab/P2N2025/blob/main/01_python_basics.ipynb)
+**Learning Objectives:**
+- Get started with Google Colab
+- Understand the basics of Python programming
+- Understand numpy arrays
+
+### 2. [Image I/O and Visualization](https://colab.research.google.com/github/DeVosLab/P2N2025/blob/main/02_image-io-and-visualization.ipynb)
 **Learning Objectives:**
 - Master file I/O operations for various microscopy formats
 - Understand image metadata and pixel size information
 - Learn effective visualization strategies for multidimensional data
 - Apply basic image processing operations
 
-**Key Take-Home Messages:**
-- Bioio provides a unified interface for reading diverse microscopy formats
-- Proper visualization is crucial for understanding your data
-- Basic image operations form the foundation for more complex analyses
+### 3. [Intro to Image Processing](https://colab.research.google.com/github/DeVosLab/P2N2025/blob/main/03_image-processing.ipynb)
+**Learning Objectives:**
+- Apply fundamental image processing operations
+- Extract features from segmented objects
 
-### 2. **denoising_n2v2.ipynb** - Deep Learning-Based Image Denoising
+### 4. [Image Denoising using Deep Learning](https://colab.research.google.com/github/DeVosLab/P2N2025/blob/main/04_image-denoising-with-N2V2.ipynb)
 **Learning Objectives:**
 - Understand the principles of self-supervised denoising
 - Implement Noise2Void 2 for removing noise without clean reference images
 - Learn to train, validate, and apply deep learning models
 - Export trained models for future use
 
-**Key Take-Home Messages:**
-- Modern denoising can dramatically improve image quality without requiring clean reference data
-- Deep learning models can be trained on your own data for optimal performance
-- Proper model training requires careful consideration of data augmentation and validation
-
-### 3. **cellpose_seg.ipynb** - Automated Cell Segmentation
+### 5. [Automated Cell Segmentation using Deep Learning](https://colab.research.google.com/github/DeVosLab/P2N2025/blob/main/05_cell-segmentation-with-cellpose.ipynb)
 **Learning Objectives:**
 - Apply state-of-the-art deep learning for cell segmentation
 - Understand the importance of image preprocessing
 - Learn parameter optimization for different cell types and imaging conditions
 - Integrate traditional image processing with modern ML approaches
-
-**Key Take-Home Messages:**
-- Cellpose provides robust, generalizable cell segmentation across diverse imaging conditions
-- Preprocessing steps significantly impact segmentation quality
-- Combining multiple approaches (traditional + ML) often yields the best results
 
 ## Target Audience
 
@@ -83,24 +79,13 @@ This course is designed for researchers who:
 ## Getting Started
 
 ### Option 1: Google Colab (Recommended for Beginners)
-Access the course materials directly in your browser without any installation required:
-- [Google Colab Notebook](https://colab.research.google.com/drive/1wF2K0WLztyt9mwoLVlLrMAKXKTHwc0lp?authuser=1#scrollTo=HUdC4BUvV3j_)
+Access the course materials directly in your browser without any installation required. Use the links in the [Notebook Structure](#notebook-structure) section to get started.
 
 ### Option 2: Local Installation
 For advanced users who prefer local development:
 1. Clone this repository
 2. Install required dependencies (see individual notebooks)
 3. Run Jupyter notebooks locally
-
-## Course Progression
-
-The notebooks are designed to be completed in sequence:
-
-1. **Start with `io_scikitimage.ipynb`** to master the fundamentals
-2. **Progress to `denoising_n2v2.ipynb`** to learn modern denoising techniques
-3. **Complete with `cellpose_seg.ipynb`** for automated segmentation
-
-Each notebook builds upon concepts from the previous ones, creating a comprehensive learning experience.
 
 ## Success Metrics
 
